@@ -28,7 +28,7 @@
                         $update->bind_param("ds", $param2, $param1);
                         $update->execute();
 
-                        return "Dane zostały odświerzone";
+                        return "Dane zostały odświeżone";
                     } else {
                         $insertQuery = "INSERT INTO $tableName (name, value) VALUES (?, ?)";
                         $insert = $mysqli->prepare($insertQuery);
@@ -44,7 +44,7 @@
                     $insert->close();
                 }
             } catch (mysqli_sql_exception $e) {
-                return "Błąd zapisu/odświerzenia danych: " . $e->getMessage();
+                return "Błąd zapisu/odświeżenia danych: " . $e->getMessage();
             }
         }
         /**
