@@ -3,7 +3,7 @@
     <content class="w-100 text-center bg-light">
         <h1 class="mt-4">Obecny stan kursów walut</h1> 
         <form method="POST" action="">
-            <button type="submit" class="btn btn-primary">Odświerz dane</button>
+            <button type="submit" class="btn btn-primary">Odśwież dane</button>
         </form>
         <br>
         <table class="table table-hover w-50" style="margin:0 auto">
