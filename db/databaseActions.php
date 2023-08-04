@@ -48,7 +48,7 @@
             }
         }
         /**
-         * Oczytuje dane z bazy danych.
+         * Oczytuje dane z bazy danych. 
          *
          * @param mysqli $mysqli Obiekt reprezentujący połączenie z bazą danych.
          * @param string $tableName Nazwa tabeli, do której mają zostać zapisane dane.
